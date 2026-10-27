@@ -1,0 +1,4 @@
+name = "sa-invoice-pro-client-portal"
+compatibility_date = "2024-01-01"
+
+# Cloudflare Pages: connect repo, output = root, no build command.
