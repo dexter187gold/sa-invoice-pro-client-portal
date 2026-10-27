@@ -1,0 +1,13 @@
+{
+  "name": "sa-invoice-pro-client-portal",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SA Invoice Pro customer client portal",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

@@ -1,4 +1,8 @@
 name = "sa-invoice-pro-client-portal"
-compatibility_date = "2024-01-01"
+compatibility_date = "2024-11-12"
+workers_dev = true
 
-# Cloudflare Pages: connect repo, output = root, no build command.
+# Static customer portal (no Worker script required)
+[assets]
+directory = "./public"
+not_found_handling = "single-page-application"
